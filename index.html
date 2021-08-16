@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAPA JOHNS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="./img/pj_logo_web_new.png" alt="" />
+        </a>
+      </div>
+      <ul class="header-top-left">
+        <li><a href="#">Restoranlar</a></li>
+        <li><a href="#">PapaBonus</a></li>
+      </ul>
+      <div class="header-top-right">
+        <div class="lang">
+          <img src="img/flag_az.png" alt="" />
+          <span>Azərbaycanca</span>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class="registr">
+          <a href="#">Giriş /Qeydiyyat</a>
+        </div>
+        <div class="basket">
+          <div>
+            <span class="basket-icon-count">0</span>
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+          </div>
+          <span class="basket-icon-price">0$</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-top-mobile">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="./img/pj_logo_web_new.png" alt="" />
+        </a>
+      </div>
+      <div class="lang">
+        <img src="img/flag_az.png" alt="" />
+        <span>Az</span>
+      </div>
+      <div class="registr">
+        <a href="#">
+          <i class="fas fa-user"></i>
+          <span>Giriş</span>
+        </a>
+      </div>
+      <div class="basket">
+        <div>
+          <span class="basket-icon-count">0</span>
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        </div>
+        <span class="basket-icon-price">0$</span>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <ul>
+        <li><a href="#">KAMPANİYALAR</a></li>
+        <li><a href="#">PAPADİAS</a></li>
+        <li><a href="#">PİZZA</a></li>
+        <li><a href="#">QƏLYANALTI</a></li>
+        <li><a href="#">SALAT</a></li>
+        <li><a href="#">PASTA</a></li>
+        <li><a href="#">İÇKİ</a></li>
+        <li><a href="#">DESERT</a></li>
+        <li><a href="#">SOUS</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <section class="promo">
+        <p>
+          Promo kodunuz var?
+          <span>Endirimdən istifadə edin!</span>
+        </p>
+        <div class="promo-input">
+          <input type="text" placeholder="Promo kodu daxil edin" />
+          <button class="btn">OK</button>
+        </div>
+      </section>
+
+      <section class="product">
+        <div class="product-nav">
+          <ul>
+            <li class="tab" onclick="tab('col')" id="active">Hamısı</li>
+            <li class="tab" onclick="tab('toyuqlu')">Toyuqlu</li>
+            <li class="tab" onclick="tab('etli')">Ət ilə</li>
+            <li class="tab" onclick="tab('vegeteryan')">Vegetarian</li>
+            <li class="tab" onclick="tab('acılı')">Acılı</li>
+          </ul>
+        </div>
+        <div class="product-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <ul class="footer-list">
+          <li><a href="#">Haqqımızda</a></li>
+          <li><a href="#">Sual-Cavab</a></li>
+          <li><a href="#">Karyera</a></li>
+          <li><a href="#">Xəmir</a></li>
+          <li><a href="#">Papa Talk</a></li>
+        </ul>
+        <div class="footer-photos">
+          <img src="./img/download.png" alt="" />
+        </div>
+        <ul class="footer-icons">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="product-modal" class="modal">
+    <div class="product-modal-container">
+      <div id="cart-close" class="close">
+        <span>Bağla</span>
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="img-container">
+        <img src="img/qarishiq_et.jpg" alt="" />
+      </div>
+      <span class="cart-title"></span>
+      <div class="product-types">
+        <button class="enenevi">Ənənəvi</button>
+        <button class="nazik">Nazik</button>
+      </div>
+      <select class="select" id="select">
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+      </select>
+      <div class="count-price">
+        <div class="count">
+          <span id="minus-cart" class="fa fa-minus"></span>
+          <span id="cart-count"></span>
+          <span id="plus-cart" class="fa fa-plus"></span>
+        </div>
+        <span class="cart-price"></span>
+      </div>
+      <div class="cart-footer">
+        <div class="basket">
+          <div>
+            <i class="fa fa-shopping-basket"></i>
+            <span class="basket-icon-count">0</span>
+          </div>
+          <span class="basket-icon-price">0$</span>
+        </div>
+        <button class="add-btn btn">Səbətə at</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="basket-modal" class="modal">
+    <div class="basket-modal-container">
+      <div id="basket-close" class="close">
+        <span>Bağla</span>
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="modal-title">Səbət</div>
+      <p class="total-count">Səbətinizdə məhsulların sayı: <span>0</span> </p>
+      <div class="products-container"></div>
+      <div class="basket-footer">
+        <a href="#" class="btn" id="checkout-btn"></a>
+        <p id="total-price"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

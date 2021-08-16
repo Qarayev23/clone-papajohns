@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Çiken Ranç",
+        "info": "Qril Toyuq, Pomidor, Ranç Sousu, Mozzarella Pendiri",
+        "class": "toyuqlu",
+        "img": "img/chicken_ranch.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":0
+    },
+    {
+        "name": "Çiken Barbekyu",
+        "info": "Qril Toyuq, Göbələk, Barbekyu Sousu, Mozzarella Pendiri",
+        "class": "toyuqlu",
+        "img": "img/chicken_barbekyu.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":1
+    },
+    {
+        "name": "Meksika",
+        "info": "Qril Toyuq, Pomidor, Göbələk, Yaşıl Bibər, Halapenyo Bibəri, Mozzarella Pendiri",
+        "class": "toyuqlu",
+        "img": "img/meksika.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":2
+    },
+    {
+        "name": "Çiken Çizburger",
+        "info": "Qril Toyuq, Turşu Xiyar, Pomidor, Mozzarella Pendiri, Sous",
+        "class": "toyuqlu",
+        "img": "img/chicken_cheeseburger.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":3
+    },
+    {
+        "name": "Havay",
+        "info": "Qril Toyuq, Ananas, Ekstra Mozzarella",
+        "class": "toyuqlu",
+        "img": "img/havay.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":4
+    },
+    {
+        "name": "Çiken Parmezan",
+        "info": "Toyuq Poppersləri, Parmesan, Göbələk, İtalyan Ədviyyatları, Mozzarella Pendiri, Sarımsaq Sousu",
+        "class": "toyuqlu",
+        "img": "img/chicken_parmesan_item.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":5
+    },
+    {
+        "name": "Super Papa",
+        "info": "Pepperoni, İtalyan Sosisi, Mal Ətindən Vetçina, Göbələk, Yaşıl Bibər, Qara Zeytun, Mozzarella Pendiri",
+        "class": "etli",
+        "img": "img/super-papa.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":6
+    },
+    {
+        "name": "Qarışıq Ət",
+        "info": "Pepperoni, İtalyan Sosisi, Mal Əti, Mal Ətindən Vetçina, Mozzarella Pendiri",
+        "class": "etli",
+        "img": "img/qarishiq_et.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":7
+    },
+    {
+        "name": "Dabl Çizburger",
+        "info": "Mal Əti, Turşu Xiyar, Pomidor, Mozzarella Pendiri, Sous",
+        "class": "etli",
+        "img": "img/margarita.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":8
+    },
+    {
+        "name": "Vestern Barbekyu",
+        "info": "Mal Əti, Göbələk, Barbekyu Sousu, Mozzarella Pendiri",
+        "class": "etli",
+        "img": "img/vestern_barbekyu.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":9
+    } ,
+    {
+        "name": "Klassik Pepperoni",
+        "info": "Pepperoni, Ekstra Mozzarella",
+        "class": "etli",
+        "img": "img/klassik_pepperoni.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":10
+    },
+    {
+        "name": "Acılı Vegetarian",
+        "info": "Halapenyo Bibəri, Pomidor, Göbələk, Qara Zeytun, Yaşıl Bibər və Mozzarella Pendiri",
+        "class": "vegeteryan",
+        "img": "img/vegetarian-acili.png",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":11
+    },
+    {
+        "name": "Yunan",
+        "info": "Pomidor, Zeytun, Feta Pendiri, Oreqano, Acılı Bibər, Mozzarella Pendiri",
+        "class": "vegeteryan",
+        "img": "img/super-papa.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":12
+    },
+    {
+        "name": "Margarita",
+        "info": "Pomidor, Oreqano, Mozzarella Pendiri",
+        "class": "vegeteryan",
+        "img": "img/margarita.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":13
+    },
+    {
+        "name": "Vegetarian",
+        "info": "Pomidor, Göbələk, Yaşıl Bibər, Qara Zeytun, Mozzarella Pendiri",
+        "class": "vegeteryan",
+        "img": "img/vegetarian.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":14
+    },
+    {
+        "name": "Amerikan Hot",
+        "info": "Pizza Sous, Mozzarella pendiri, Pepperoni və Halapenyo Bibəri",
+        "class": "acılı",
+        "img": "img/american-hot.png",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":15
+    },
+    {
+        "name": "Acılı Çiken Ranç",
+        "info": "Ranch Sousu, Toyuq Əti, Göbələklər, Sarımsaq, Halapenyo Bibəri, Təzə Doğranmış Pomidorlar və Mozzarella Pendiri",
+        "class": "acılı",
+        "img": "img/Spicy-chicken-ranch.png",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":16
+    },
+    {
+        "name": "Acılı Vegetarian",
+        "info": "Halapenyo Bibəri, Pomidor, Göbələk, Qara Zeytun, Yaşıl Bibər və Mozzarella Pendiri",
+        "class": "acılı",
+        "img": "img/vegetarian-acili.png",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":17
+    },
+    {
+        "name": "Meksika",
+        "info": "Pomidor, Göbələk, Yaşıl Bibər, Qara Zeytun, Mozzarella Pendiri",
+        "class": "acılı",
+        "img": "img/meksika.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":18
+    },
+    {
+        "name": "Hot and Spaysi",
+        "info": "Mal Əti, Pomidor, Yaşıl Bibər, Halapenyo Bibəri, Mozzarella Pendiri",
+        "class": "acılı",
+        "img": "img/hot_and_spaysi.jpg",
+        "price":{
+            "kicik":9,
+            "orta":14,
+            "boyuk":19
+        },
+        "id":19
+    }
+]
